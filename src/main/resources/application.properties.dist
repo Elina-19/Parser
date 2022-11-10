@@ -1,0 +1,17 @@
+#DB Properties
+db.url=jdbc:postgresql://localhost:5432/db_name
+db.user=
+db.password=qwerty007
+db.driver-class-name=org.postgresql.Driver
+db.hikari.pool-size=20
+
+#Hibernate Configuration
+hibernate.dialect=org.hibernate.dialect.PostgreSQL10Dialect
+hibernate.hbm2ddl.auto=none
+hibernate.format_sql=true
+hibernate.show_sql=true
+
+#Parser
+url=https://dshop.kznexpress.ru/
+offset=240
+limit=48
